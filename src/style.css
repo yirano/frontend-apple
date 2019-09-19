@@ -40,8 +40,7 @@ nav {
   top: 90px;
   text-align: center;
   margin: 0 auto;
-  background: 
-  linear-gradient(0deg,rgb(119, 119, 119) 0%,rgb(92, 92, 92) 50%,rgb(128, 127, 127) 55%,rgb(128, 127, 127) 50%,rgb(105, 105, 105) 95%,rgb(119, 119, 119) 100%);
+  background: linear-gradient(0deg, rgb(119, 119, 119) 0%, rgb(92, 92, 92) 50%, rgb(128, 127, 127) 55%, rgb(128, 127, 127) 50%, rgb(105, 105, 105) 95%, rgb(119, 119, 119) 100%);
   font-size: 13px;
   font-weight: 400;
   color: #fff;
@@ -49,11 +48,11 @@ nav {
   border-radius: 5px;
 }
 
-nav ul {
+nav > ul {
   margin-left: -40px;
 }
 
-nav ul li {
+nav > ul > li {
   display: inline-block;
   list-style: none;
   padding: 8px 30px;
@@ -61,16 +60,16 @@ nav ul li {
   border-right: 1px solid rgb(82, 82, 82);
 }
 
-nav li:nth-last-child(1) {
+nav > ul >li:nth-last-child(1) {
   border-right: none;
   padding: 0 20px;
 }
 
-nav li:nth-child(1) {
+nav > ul >li:nth-child(1) {
   padding: 0px 40px;
 }
 
-nav li:nth-child(2) {
+nav > ul >li:nth-child(2) {
   border-left: 1px solid rgb(82, 82, 82);
 }
 
@@ -88,7 +87,6 @@ input[type="search"] {
 }
 
 main {
-  top: 0;
   height: 900px;
   width: 1240px;
   background-image: url("../imgs/background.jpg");
@@ -147,7 +145,7 @@ footer div {
   align-items: center;
 }
 
-footer ul li {
+footer > ul > li {
   list-style: none;
 }
 
