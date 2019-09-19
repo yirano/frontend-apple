@@ -41,15 +41,7 @@ nav {
   text-align: center;
   margin: 0 auto;
   background: 
-  linear-gradient(
-    0deg,
-    rgb(119, 119, 119) 0%,
-    rgb(92, 92, 92) 50%,
-    rgb(128, 127, 127) 55%,
-    rgb(128, 127, 127) 50%,
-    rgb(105, 105, 105) 95%,
-    rgb(119, 119, 119) 100%
-  );
+  linear-gradient(0deg,rgb(119, 119, 119) 0%,rgb(92, 92, 92) 50%,rgb(128, 127, 127) 55%,rgb(128, 127, 127) 50%,rgb(105, 105, 105) 95%,rgb(119, 119, 119) 100%);
   font-size: 13px;
   font-weight: 400;
   color: #fff;
