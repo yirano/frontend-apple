@@ -3,7 +3,6 @@
 }
 
 body {
-  margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
@@ -89,7 +88,7 @@ input[type="search"] {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-main {
+section {
   height: 900px;
   width: 1240px;
   background-image: url("../imgs/background.jpg");
