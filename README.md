@@ -12,5 +12,4 @@ HTML, CSS
 
 ### Links
 
-- **Assignment page** - [The Odin Project](https://github.com/yirano/mv-04-htmlcss-apple/tree/apple)
-- **Live** - [Github pages](https://ferreirati.github.io/mv-03-htmlcss-nytimes/src)
+- **Live** - [Github pages](https://yirano.github.io/mv-04-htmlcss-apple/src)
