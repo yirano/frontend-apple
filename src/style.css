@@ -46,7 +46,6 @@ nav {
   background: linear-gradient(0deg, rgb(119, 119, 119) 0%, rgb(92, 92, 92) 50%, rgb(128, 127, 127) 55%, rgb(128, 127, 127) 50%, rgb(105, 105, 105) 95%, rgb(119, 119, 119) 100%);
   font-size: 13px;
   font-weight: 400;
-  color: #fff;
   border: 1px solid rgb(49, 49, 49);
   border-radius: 5px;
 }
@@ -75,6 +74,11 @@ nav > ul > li:nth-child(2) {
   border-left: 1px solid rgb(82, 82, 82);
 }
 
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
 input[type="search"] {
   background-image: url("../imgs/search.png");
   background-repeat: no-repeat;
@@ -88,12 +92,11 @@ input[type="search"] {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-section {
-  height: 900px;
-  width: 1240px;
+.main-img {
+  height: 100vh;
+  width: 100%;
   background-image: url("../imgs/background.jpg");
   margin: 0 auto;
-  padding: 0 100px;
 }
 
 .title {
@@ -119,13 +122,13 @@ section {
   margin-top: 8px;
 }
 
-aside {
-  width: 1440px;
+.link-img {
+  width: 100%;
   margin: 0 auto;
 }
 
-.aside-img img {
-  width: calc(1440px / 4);
+.link-img img {
+  width: calc(100% / 4);
   float: left;
 }
 
