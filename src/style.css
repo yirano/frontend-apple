@@ -62,9 +62,20 @@ nav {
   align-items: center;
 }
 
+nav a {
+  color: #fff;
+}
+
 .second-line a {
   color: rgba(0, 136, 204, 0.897);
   text-decoration: none;
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding: 8px 30px;
+  margin-left: -4px;
+  border-right: 1px solid rgb(82, 82, 82);
 }
 
 .second-line ul li {
@@ -73,13 +84,6 @@ nav {
 
 nav > ul {
   margin-left: -40px;
-}
-
-nav > ul > li {
-  display: inline-block;
-  padding: 8px 30px;
-  margin-left: -4px;
-  border-right: 1px solid rgb(82, 82, 82);
 }
 
 nav > ul > li:nth-last-child(1) {
@@ -93,10 +97,6 @@ nav > ul > li:nth-child(1) {
 
 nav > ul > li:nth-child(2) {
   border-left: 1px solid rgb(82, 82, 82);
-}
-
-nav a {
-  color: #fff;
 }
 
 input[type="search"] {
