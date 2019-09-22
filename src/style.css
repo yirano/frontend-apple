@@ -10,7 +10,7 @@ body {
 
 a {
   color: rgba(0, 136, 204, 0.897);
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 ul li {
@@ -54,6 +54,21 @@ nav {
   font-weight: 400;
   border: 1px solid rgb(49, 49, 49);
   border-radius: 5px;
+}
+
+.second-line div {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.second-line a {
+  color: rgba(0, 136, 204, 0.897);
+  text-decoration: none;
+}
+
+.second-line ul li {
+  display: inline;
 }
 
 nav > ul {
@@ -148,19 +163,4 @@ footer {
   font-size: 10px;
   line-height: 24px;
   color: #6e6e6e;
-}
-
-.second-line div {
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-}
-
-.second-line a {
-  color: rgba(0, 136, 204, 0.897);
-  text-decoration: none;
-}
-
-.second-line ul li {
-  display: inline;
 }
