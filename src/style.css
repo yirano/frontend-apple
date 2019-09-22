@@ -152,3 +152,7 @@ footer a {
   color: rgba(0, 136, 204, 0.897);
   text-decoration: none;
 }
+
+footer ul li {
+  display: inline;
+}
