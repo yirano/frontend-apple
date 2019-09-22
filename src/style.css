@@ -8,6 +8,11 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+a {
+  color: rgba(0, 136, 204, 0.897);
+  text-decoration: none;  
+}
+
 ul li {
   list-style: none;
 }
@@ -47,7 +52,6 @@ nav {
   background: linear-gradient(0deg, rgb(119, 119, 119) 0%, rgb(92, 92, 92) 50%, rgb(128, 127, 127) 55%, rgb(128, 127, 127) 50%, rgb(105, 105, 105) 95%, rgb(119, 119, 119) 100%);
   font-size: 13px;
   font-weight: 400;
-  color: #fff;
   border: 1px solid rgb(49, 49, 49);
   border-radius: 5px;
 }
@@ -74,6 +78,10 @@ nav > ul > li:nth-child(1) {
 
 nav > ul > li:nth-child(2) {
   border-left: 1px solid rgb(82, 82, 82);
+}
+
+nav a {
+  color: #fff;
 }
 
 input[type="search"] {
@@ -142,17 +150,17 @@ footer {
   color: #6e6e6e;
 }
 
-footer div {
+.second-line div {
   justify-content: center;
   align-content: center;
   align-items: center;
 }
 
-footer a {
+.second-line a {
   color: rgba(0, 136, 204, 0.897);
   text-decoration: none;
 }
 
-footer ul li {
+.second-line ul li {
   display: inline;
 }
